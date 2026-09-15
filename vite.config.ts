@@ -12,9 +12,9 @@ export default defineConfig({
   },
   plugins: [
     viteTsConfigPaths({ projects: ['./tsconfig.json'] }),
-    tailwindcss(),
     tanstackStart(),
     nitro(),
     react(),
+    tailwindcss(),
   ],
 })
